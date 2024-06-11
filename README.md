@@ -1,4 +1,5 @@
-SNAKE GAME ![ImCrazySnakeGIF](https://github.com/VedantHanda771/snakeGame/assets/122337658/407f6a5e-c435-46c5-bc82-2e0d4f0703ec)
+SNAKE GAME 
+![ImCrazySnakeGIF](https://github.com/VedantHanda771/snakeGame/assets/122337658/407f6a5e-c435-46c5-bc82-2e0d4f0703ec)
 
 Demo--> https://snake-game-two-ruddy.vercel.app/
 
