@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+  <nav class="bg-red-500">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center h-16">
+      <a href="#" class="text-white text-2xl font-bold">Snake Game</a>
+    </div>
+  </nav>
+
+  <div class="container mx-auto">
+    <div class="row">
+        <div class="col-12">
+            <div class="bg-gray-200 mx-auto mt-8 border-0 border-gray-400 sm:border-dotted sm:border-1 relative" style="width: 400px; height: 400px;">
+                <canvas id="game" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="row">
+      <div class="col-12 flex justify-center mt-4">
+        <button id="restartButton" class="bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-50">Home</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/index1.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.js"></script>
+</body>
+</html>
